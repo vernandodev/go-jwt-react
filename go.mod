@@ -2,6 +2,8 @@ module github.com/vernandodev/go-jwt-react
 
 go 1.19
 
+require golang.org/x/crypto v0.2.0
+
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
@@ -16,7 +18,7 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.41.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	gorm.io/driver/mysql v1.4.3 // indirect
 	gorm.io/gorm v1.24.1 // indirect
 )
