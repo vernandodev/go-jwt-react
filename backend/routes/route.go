@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/vernandodev/go-jwt-react/controllers"
+	"github.com/vernandodev/go-jwt-react/backend/controllers"
 )
 
 func Setup(app *fiber.App) {

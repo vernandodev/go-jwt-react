@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/vernandodev/go-jwt-react/databases"
-	"github.com/vernandodev/go-jwt-react/routes"
+	"github.com/vernandodev/go-jwt-react/backend/databases"
+	"github.com/vernandodev/go-jwt-react/backend/routes"
 )
 
 func main() {

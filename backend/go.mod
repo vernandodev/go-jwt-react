@@ -1,4 +1,4 @@
-module github.com/vernandodev/go-jwt-react
+module github.com/vernandodev/go-jwt-react/backend
 
 go 1.19
 

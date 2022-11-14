@@ -1,7 +1,7 @@
 package databases
 
 import (
-	"github.com/vernandodev/go-jwt-react/models"
+	"github.com/vernandodev/go-jwt-react/backend/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
