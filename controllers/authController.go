@@ -39,3 +39,7 @@ func Login(c *fiber.Ctx) error {
 
 	return c.JSON(data)
 }
+
+func login() {
+
+}
