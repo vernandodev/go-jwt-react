@@ -1,22 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-const Home = () => {
-  const [name, setName] = useState('');
-
-  useEffect(() => {
-    (async () => {
-      const response = await fetch('http://localhost:8000/api/user', {
-        headers: { 'Content-Type': 'application/json' },
-        credentials: 'include',
-      });
-
-      const content = await response.json();
-
-      setName(content.name);
-    })();
-  });
-
-  return <div>{name ? 'Hi' + name : 'You are not logged in'}</div>;
+const Home = (props: { name: string }) => {
+  return <div>{props.name ? 'Hi ' + props.name : 'You are not logged in'}</div>;
 };
 
 export default Home;
